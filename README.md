@@ -42,7 +42,9 @@ _✨ 一款从lolicon API获取指定tag图片的插件（适用于Onebot V11）
     pip install aiohttp
   若采用了虚拟环境，则需要在虚拟环境中执行
 </details>
+
 以下两种方式任选其一即可
+
 <details>
 
 <summary>使用nb-cli安装(推荐)</summary>
@@ -97,4 +99,5 @@ _✨ 一款从lolicon API获取指定tag图片的插件（适用于Onebot V11）
 | excludeAI | boolean | false | 排除 AI 作品 |
 
 例如：`https://api.lolicon.app/setu/v2?tag=萝莉&tag=贫乳&r18=1&excludeAI=true`就是返回tag为萝莉和贫乳且为r18且不是ai的作品
+指令就可以是`来张萝莉&tag=贫乳&r18=1&excludeAI=true`
 本插件（大概）只适配了tag，r18，keyword等这些只会返回一个url的参数，因为我只写了一个（），动手能力强的可以自己改改
