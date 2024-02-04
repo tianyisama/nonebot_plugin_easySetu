@@ -6,7 +6,7 @@
 
 <div align="center">
 
-# nonebot-plugin-mypower
+# nonebot-plugin-easySetu
 
 _✨ 一款从lolicon API获取指定tag图片的插件（适用于Onebot V11）✨_
 
