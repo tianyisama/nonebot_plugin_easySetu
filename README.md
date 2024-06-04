@@ -67,9 +67,7 @@ _✨ 一款从lolicon API获取指定tag图片的插件（适用于Onebot V11）
 
 ## 参数
 
-需要在env中设置代理：
- `aiohttp=127.0.0.1:7890 #示例`
-不想设置也没关系，将代码33行与50行`, proxy=PROXY`删除即可
+未设置代理，如有需要可以在网络请求中添加proxy = PROXY，本插件支持设置权限（详见代码），也支持自身消息触发（只适配了napcat，其余的未知是否可用）
 
 ## 🎉 使用
 ### 指令表
@@ -101,3 +99,7 @@ _✨ 一款从lolicon API获取指定tag图片的插件（适用于Onebot V11）
 例如：`https://api.lolicon.app/setu/v2?tag=萝莉&tag=贫乳&r18=1&excludeAI=true`就是返回tag为萝莉和贫乳且为r18且不是ai的作品
 指令就可以是`来张萝莉&tag=贫乳&r18=1&excludeAI=true`
 本插件（大概）只适配了tag，r18，keyword等这些只会返回一个url的参数，因为我只写了一个（），动手能力强的可以自己改改
+
+## 2024.6.4
+
+更新了一下写的shit，还是没有申请商店（
